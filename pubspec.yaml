@@ -17,8 +17,9 @@ dependencies:
 dependency_overrides:
   libphonenumber_plugin:
     git:
-      url: https://github.com/bdw9005/plugin_libphonenumber
+      url: https://github.com/bdw9005/plugin_libphonenumber.git
       ref: main
+      path: ./libphonenumber_plugin
       
 dev_dependencies:
   flutter_test:
